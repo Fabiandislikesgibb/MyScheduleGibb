@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:mauiApp3="using:MauiApp3"
+       x:Class="MauiApp3.AppShell">
+
+    <FlyoutItem Title="Calendar" Icon="icon_calendar.png">
+        <ShellContent ContentTemplate="{DataTemplate mauiApp3:MainPage}" />
+    </FlyoutItem>
+
+</Shell>
