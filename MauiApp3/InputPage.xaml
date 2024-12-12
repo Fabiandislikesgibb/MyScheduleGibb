@@ -4,12 +4,13 @@
              x:Class="MauiApp3.InputPage"
              Title="Neues Ereignis erstellen">
 
-    <StackLayout Padding="10">
+    <StackLayout Padding="20" Spacing="15">
         <Label Text="Füge ein neues Ereignis in deinen Kalender ein." FontSize="Medium" />
 
         <Entry x:Name="TitleEntry" Placeholder="Titel des Ereignisses" />
         <Label x:Name="TitleError" Text="Der Titel darf nicht leer sein." TextColor="Red" IsVisible="False" />
 
+        <Label Text="Datum und Uhrzeit des Ereignisses:" FontSize="Medium" />
         <DatePicker x:Name="EventDatePicker" />
         <TimePicker x:Name="EventTimePicker" Time="08:00" />
         <Label x:Name="DateTimeError" Text="Das Datum und die Uhrzeit müssen in der Zukunft liegen." TextColor="Red" IsVisible="False" />
@@ -18,6 +19,7 @@
         <Slider x:Name="DurationSlider" Minimum="1" Maximum="8" Value="1" />
         <Label x:Name="DurationLabel" Text="Dauer: 1 Stunde" />
 
+        <Label Text="Art des Ereignisses:" FontSize="Medium" />
         <Picker x:Name="EventTypePicker" Title="Art des Ereignisses">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
@@ -34,7 +36,7 @@
         <Label Text="Erinnerung aktivieren" />
         <TimePicker x:Name="ReminderTimePicker" Time="00:15" IsVisible="False" />
 
-        <Entry x:Name="DescriptionEntry" Placeholder="Beschreibung des Ereignisses"/>
+        <Entry x:Name="DescriptionEntry" Placeholder="Beschreibung des Ereignisses" />
 
         <Button Text="Speichern" Clicked="OnSaveClicked" />
         <Button Text="Zurücksetzen" Clicked="OnResetClicked" />
