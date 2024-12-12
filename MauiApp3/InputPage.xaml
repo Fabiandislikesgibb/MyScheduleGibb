@@ -2,25 +2,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp3.InputPage"
-             Title="Eingabe">
+             Title="Neues Ereignis erstellen">
 
     <StackLayout Padding="10">
-        <Entry x:Name="NameEntry" Placeholder="Name" />
-        <Entry x:Name="EmailEntry" Placeholder="E-Mail" Keyboard="Email" />
-        <Picker x:Name="ThemePicker" Title="Bevorzugte Ansicht">
+        <Label Text="Füge ein neues Ereignis in deinen Kalender ein." FontSize="Medium" />
+
+        <Entry x:Name="TitleEntry" Placeholder="Titel des Ereignisses" />
+        <Label x:Name="TitleError" Text="Der Titel darf nicht leer sein." TextColor="Red" IsVisible="False" />
+
+        <DatePicker x:Name="EventDatePicker" />
+        <TimePicker x:Name="EventTimePicker" Time="08:00" />
+        <Label x:Name="DateTimeError" Text="Das Datum und die Uhrzeit müssen in der Zukunft liegen." TextColor="Red" IsVisible="False" />
+
+        <Label Text="Dauer (Stunden):" />
+        <Slider x:Name="DurationSlider" Minimum="1" Maximum="8" Value="1" />
+        <Label x:Name="DurationLabel" Text="Dauer: 1 Stunde" />
+
+        <Picker x:Name="EventTypePicker" Title="Art des Ereignisses">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
-                    <x:String>Tag</x:String>
-                    <x:String>Woche</x:String>
-                    <x:String>Monat</x:String>
-                    <x:String>Jahr</x:String>
+                    <x:String>Meeting</x:String>
+                    <x:String>Geburtstag</x:String>
+                    <x:String>Urlaub</x:String>
+                    <x:String>Sonstiges</x:String>
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <DatePicker x:Name="DatePicker" />
-        <Switch x:Name="NotificationSwitch" IsToggled="False" />
-        <Slider x:Name="FontSizeSlider" Minimum="10" Maximum="30" />
-        <Button Text="Absenden" Clicked="OnSubmitClicked" />
-        <Label x:Name="ErrorMessage" TextColor="Red" IsVisible="False" />
+        <Label x:Name="EventTypeError" Text="Bitte wählen Sie eine Ereignisart aus." TextColor="Red" IsVisible="False" />
+
+        <Switch x:Name="ReminderSwitch" IsToggled="False" />
+        <Label Text="Erinnerung aktivieren" />
+        <TimePicker x:Name="ReminderTimePicker" Time="00:15" IsVisible="False" />
+
+        <Entry x:Name="DescriptionEntry" Placeholder="Beschreibung des Ereignisses"/>
+
+        <Button Text="Speichern" Clicked="OnSaveClicked" />
+        <Button Text="Zurücksetzen" Clicked="OnResetClicked" />
     </StackLayout>
 </ContentPage>
