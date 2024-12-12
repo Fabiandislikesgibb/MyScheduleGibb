@@ -1,56 +1,61 @@
-﻿namespace MauiApp3;
+﻿// MauiApp3/MainPage.xaml.cs
+using Microsoft.Maui.Controls;
 
-public partial class MainPage : TabbedPage
+namespace MauiApp3
 {
-    public DateTime SelectedDate { get; set; } = DateTime.Now;
-    public string CurrentView { get; set; } = "Month"; // Default view
-
-    public MainPage()
+    public partial class MainPage : TabbedPage
     {
-        InitializeComponent();
-        UpdateButtonColors();
-    }
+        public DateTime SelectedDate { get; set; } = DateTime.Now;
+        public string CurrentView { get; set; } = "Month"; // Default view
 
-    private void OnTodayButtonClicked(object sender, EventArgs e)
-    {
-        SelectedDate = DateTime.Now;
-        // Update the view to reflect the current date
-    }
+        public MainPage()
+        {
+            InitializeComponent();
+            UpdateButtonColors();
+        }
 
-    private void OnDayViewButtonClicked(object sender, EventArgs e)
-    {
-        CurrentView = "Day";
-        UpdateButtonColors();
-    }
+        private void OnTodayButtonClicked(object sender, EventArgs e)
+        {
+            SelectedDate = DateTime.Now;
+        }
 
-    private void OnWeekViewButtonClicked(object sender, EventArgs e)
-    {
-        CurrentView = "Week";
-        UpdateButtonColors();
-    }
+        private void OnDayViewButtonClicked(object sender, EventArgs e)
+        {
+            CurrentView = "Day";
+            UpdateButtonColors();
+        }
 
-    private void OnMonthViewButtonClicked(object sender, EventArgs e)
-    {
-        CurrentView = "Month";
-        UpdateButtonColors();
-    }
+        private void OnWeekViewButtonClicked(object sender, EventArgs e)
+        {
+            CurrentView = "Week";
+            UpdateButtonColors();
+        }
 
-    private void OnYearViewButtonClicked(object sender, EventArgs e)
-    {
-        CurrentView = "Year";
-        UpdateButtonColors();
-    }
+        private void OnMonthViewButtonClicked(object sender, EventArgs e)
+        {
+            CurrentView = "Month";
+            UpdateButtonColors();
+        }
 
-    private void UpdateButtonColors()
-    {
-        DayViewButtonColor = CurrentView == "Day" ? "#3A75C4" : "#F2F2F2";
-        WeekViewButtonColor = CurrentView == "Week" ? "#3A75C4" : "#F2F2F2";
-        MonthViewButtonColor = CurrentView == "Month" ? "#3A75C4" : "#F2F2F2";
-        YearViewButtonColor = CurrentView == "Year" ? "#3A75C4" : "#F2F2F2";
-    }
+        private void OnYearViewButtonClicked(object sender, EventArgs e)
+        {
+            CurrentView = "Year";
+            UpdateButtonColors();
+        }
 
-    public string DayViewButtonColor { get; set; }
-    public string WeekViewButtonColor { get; set; }
-    public string MonthViewButtonColor { get; set; }
-    public string YearViewButtonColor { get; set; }
+        private void UpdateButtonColors()
+        {
+            foreach (var item in ToolbarItems)
+            {
+                if (item.Text == CurrentView)
+                {
+                    item.Style = (Style)Application.Current.Resources["SelectedToolbarItemStyle"];
+                }
+                else
+                {
+                    item.Style = (Style)Application.Current.Resources["ToolbarItemStyle"];
+                }
+            }
+        }
+    }
 }
