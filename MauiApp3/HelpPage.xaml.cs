@@ -5,18 +5,35 @@ public partial class HelpPage : ContentPage
     public HelpPage()
     {
         InitializeComponent();
-        var faqList = new List<FaqItem>
-        {
-            new FaqItem { Question = "Frage 1", Answer = "Antwort 1" },
-            new FaqItem { Question = "Frage 2", Answer = "Antwort 2" }
-        };
-        FaqCollectionView.ItemsSource = faqList;
     }
-}
 
-public class FaqItem
-{
-    public string Question { get; set; }
-    public string Answer { get; set; }
-    public bool IsVisible { get; set; }
+    private void OnQuestionClicked(object sender, EventArgs e)
+    {
+        Button button = sender as Button;
+        Label answerLabel = null;
+
+        switch (button.Text)
+        {
+            case "Wie organisiere ich meine Termine und Aufgaben?":
+                answerLabel = Answer1;
+                break;
+            case "Welche Funktionen fehlen mir in den aktuellen Tools?":
+                answerLabel = Answer2;
+                break;
+            case "Wie nutze ich Erinnerungen und Benachrichtigungen?":
+                answerLabel = Answer3;
+                break;
+            case "Welche Zielgruppen sprechen wir an?":
+                answerLabel = Answer4;
+                break;
+            case "Wie sicher sind meine Daten in der App?":
+                answerLabel = Answer5;
+                break;
+        }
+
+        if (answerLabel != null)
+        {
+            answerLabel.IsVisible = !answerLabel.IsVisible;
+        }
+    }
 }
