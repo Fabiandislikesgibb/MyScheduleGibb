@@ -20,13 +20,14 @@ public partial class InputPage : ContentPage
         ReminderTimePicker.IsVisible = e.Value;
     }
 
-    private void OnSaveClicked(object sender, EventArgs e)
+    private async void OnSaveClicked(object sender, EventArgs e)
     {
         bool isValid = ValidateInputs();
         if (isValid)
         {
             // Save the event and navigate to the calendar page
-            // Display a confirmation message if needed
+            // Display a confirmation message
+            await DisplayAlert("Erfolg", "Das Ereignis wurde erfolgreich gespeichert", "OK");
         }
     }
 
