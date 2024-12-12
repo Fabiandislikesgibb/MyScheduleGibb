@@ -12,7 +12,10 @@ public partial class InputPage : ContentPage
 
     private void OnDurationSliderValueChanged(object sender, ValueChangedEventArgs e)
     {
-        DurationLabel.Text = $"Dauer: {e.NewValue} Stunde{(e.NewValue > 1 ? "n" : "")}";
+        double stepValue = 0.25;
+        double newValue = Math.Round(e.NewValue / stepValue) * stepValue;
+        DurationSlider.Value = newValue;
+        DurationLabel.Text = $"Dauer: {newValue} Stunde{(newValue > 1 ? "n" : "")}";
     }
 
     private void OnReminderSwitchToggled(object sender, ToggledEventArgs e)
