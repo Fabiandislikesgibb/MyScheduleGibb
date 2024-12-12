@@ -1,46 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:mauiApp3="using:MauiApp3"
             x:Class="MauiApp3.MainPage">
 
-    <!-- Day View Tab -->
-    <ContentPage Title="Day">
-        <ScrollView>
-            <StackLayout BackgroundColor="#F2F2F2">
-                <!-- Placeholder for Hourly Schedule -->
-                <Label Text="Day View" FontSize="Large" HorizontalOptions="Center"/>
-            </StackLayout>
-        </ScrollView>
-    </ContentPage>
-
-    <!-- Week View Tab -->
-    <ContentPage Title="Week">
-        <ScrollView>
-            <StackLayout BackgroundColor="#F2F2F2">
-                <!-- Placeholder for Week Schedule -->
-                <Label Text="Week View" FontSize="Large" HorizontalOptions="Center"/>
-            </StackLayout>
-        </ScrollView>
-    </ContentPage>
-
-    <!-- Month View Tab -->
-    <ContentPage Title="Month">
-        <ScrollView>
-            <StackLayout BackgroundColor="#F2F2F2">
-                <!-- Placeholder for Month Grid -->
-                <Label Text="Month View" FontSize="Large" HorizontalOptions="Center"/>
-            </StackLayout>
-        </ScrollView>
-    </ContentPage>
-
-    <!-- Year View Tab -->
-    <ContentPage Title="Year">
-        <ScrollView>
-            <StackLayout BackgroundColor="#F2F2F2">
-                <!-- Placeholder for Year Summary -->
-                <Label Text="Year View" FontSize="Large" HorizontalOptions="Center"/>
-            </StackLayout>
-        </ScrollView>
-    </ContentPage>
-
+    <TabbedPage.Children>
+        <NavigationPage Title="Info" IconImageSource="info.png">
+            <x:Arguments>
+                <mauiApp3:InfoPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Hilfe" IconImageSource="help.png">
+            <x:Arguments>
+                <mauiApp3:HelpPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Kalender" IconImageSource="calendar.png">
+            <x:Arguments>
+                <mauiApp3:CalendarPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Eingabe" IconImageSource="input.png">
+            <x:Arguments>
+                <mauiApp3:InputPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
 </TabbedPage>
