@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="MauiApp3.CalendarPage"
+            Title="Kalender">
+
+    <TabbedPage.Children>
+        <ContentPage Title="Tag">
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="7:00" FontSize="Medium" />
+                    <Label Text="8:00" FontSize="Medium" />
+                    <Label Text="9:00" FontSize="Medium" />
+                    <Label Text="10:00" FontSize="Medium" />
+                    <Label Text="11:00" FontSize="Medium" />
+                    <Label Text="12:00" FontSize="Medium" />
+                    <Label Text="13:00" FontSize="Medium" />
+                    <Label Text="14:00" FontSize="Medium" />
+                    <Label Text="15:00" FontSize="Medium" />
+                    <Label Text="16:00" FontSize="Medium" />
+                    <Label Text="17:00" FontSize="Medium" />
+                </StackLayout>
+            </ScrollView>
+        </ContentPage>
+        <ContentPage Title="Woche">
+            <ScrollView>
+                <Grid ColumnDefinitions="*,*,*,*,*,*,*">
+                    <Label Text="Montag" Grid.Column="0" />
+                    <Label Text="Dienstag" Grid.Column="1" />
+                    <Label Text="Mittwoch" Grid.Column="2" />
+                    <Label Text="Donnerstag" Grid.Column="3" />
+                    <Label Text="Freitag" Grid.Column="4" />
+                    <Label Text="Samstag" Grid.Column="5" />
+                    <Label Text="Sonntag" Grid.Column="6" />
+                    <!-- Add more rows for hours -->
+                </Grid>
+            </ScrollView>
+        </ContentPage>
+        <ContentPage Title="Monat">
+            <ScrollView>
+                <Grid ColumnDefinitions="*,*,*,*,*,*,*">
+                    <Label Text="Mon" Grid.Column="0" />
+                    <Label Text="Die" Grid.Column="1" />
+                    <Label Text="Mit" Grid.Column="2" />
+                    <Label Text="Don" Grid.Column="3" />
+                    <Label Text="Fre" Grid.Column="4" />
+                    <Label Text="Sam" Grid.Column="5" />
+                    <Label Text="Son" Grid.Column="6" />
+                    <!-- Add more rows for days -->
+                </Grid>
+            </ScrollView>
+        </ContentPage>
+        <ContentPage Title="Jahr">
+            <ScrollView>
+                <Grid ColumnDefinitions="*,*,*">
+                    <Label Text="Januar" Grid.Column="0" />
+                    <Label Text="Februar" Grid.Column="1" />
+                    <Label Text="März" Grid.Column="2" />
+                    <Label Text="April" Grid.Column="0" Grid.Row="1" />
+                    <Label Text="Mai" Grid.Column="1" Grid.Row="1" />
+                    <Label Text="Juni" Grid.Column="2" Grid.Row="1" />
+                    <Label Text="Juli" Grid.Column="0" Grid.Row="2" />
+                    <Label Text="August" Grid.Column="1" Grid.Row="2" />
+                    <Label Text="September" Grid.Column="2" Grid.Row="2" />
+                    <Label Text="Oktober" Grid.Column="0" Grid.Row="3" />
+                    <Label Text="November" Grid.Column="1" Grid.Row="3" />
+                    <Label Text="Dezember" Grid.Column="2" Grid.Row="3" />
+                </Grid>
+            </ScrollView>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

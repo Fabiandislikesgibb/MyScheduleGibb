@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.InputPage"
+             Title="Eingabe">
+
+    <StackLayout Padding="10">
+        <Entry x:Name="NameEntry" Placeholder="Name" />
+        <Entry x:Name="EmailEntry" Placeholder="E-Mail" Keyboard="Email" />
+        <Picker x:Name="ThemePicker" Title="Bevorzugte Ansicht">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Tag</x:String>
+                    <x:String>Woche</x:String>
+                    <x:String>Monat</x:String>
+                    <x:String>Jahr</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <DatePicker x:Name="DatePicker" />
+        <Switch x:Name="NotificationSwitch" IsToggled="False" />
+        <Slider x:Name="FontSizeSlider" Minimum="10" Maximum="30" />
+        <Button Text="Absenden" Clicked="OnSubmitClicked" />
+        <Label x:Name="ErrorMessage" TextColor="Red" IsVisible="False" />
+    </StackLayout>
+</ContentPage>
