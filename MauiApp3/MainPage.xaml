@@ -1,13 +1,13 @@
-﻿<!-- MauiApp3/MainPage.xaml -->
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="MauiApp3.MainPage">
 
     <TabbedPage.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
+            <Style x:Key="ToolbarItemStyle" TargetType="ToolbarItem">
+                <Setter Property="BackgroundColor" Value="#4CAF50"/>
+            </Style>
         </ResourceDictionary>
     </TabbedPage.Resources>
 
@@ -22,7 +22,7 @@
     <!-- Day View Tab -->
     <ContentPage Title="Day">
         <ScrollView>
-            <StackLayout BackgroundColor="{StaticResource SoftGray}">
+            <StackLayout BackgroundColor="#F2F2F2">
                 <Label Text="Day View" FontSize="Large" HorizontalOptions="Center"/>
                 <StackLayout>
                     <Label Text="7 AM" FontSize="Medium" />
@@ -44,7 +44,7 @@
     <!-- Week View Tab -->
     <ContentPage Title="Week">
         <ScrollView>
-            <Grid BackgroundColor="{StaticResource SoftGray}" ColumnDefinitions="*,*,*,*,*,*,*">
+            <Grid BackgroundColor="#F2F2F2" ColumnDefinitions="*,*,*,*,*,*,*">
                 <Label Text="Monday" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center"/>
                 <Label Text="Tuesday" Grid.Column="1" FontSize="Medium" HorizontalOptions="Center"/>
                 <Label Text="Wednesday" Grid.Column="2" FontSize="Medium" HorizontalOptions="Center"/>
@@ -59,14 +59,14 @@
     <!-- Month View Tab -->
     <ContentPage Title="Month">
         <ScrollView>
-            <Grid BackgroundColor="{StaticResource SoftGray}" ColumnDefinitions="*,*,*,*,*,*,*">
-                <Label Text="Mon" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="Tue" Grid.Column="1" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="Wed" Grid.Column="2" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="Thu" Grid.Column="3" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="Fri" Grid.Column="4" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="Sat" Grid.Column="5" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="Sun" Grid.Column="6" FontSize="Medium" HorizontalOptions="Center" TextColor="{StaticResource PrimaryBlue}"/>
+            <Grid BackgroundColor="#F2F2F2" ColumnDefinitions="*,*,*,*,*,*,*">
+                <Label Text="Mon" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
+                <Label Text="Tue" Grid.Column="1" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
+                <Label Text="Wed" Grid.Column="2" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
+                <Label Text="Thu" Grid.Column="3" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
+                <Label Text="Fri" Grid.Column="4" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
+                <Label Text="Sat" Grid.Column="5" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
+                <Label Text="Sun" Grid.Column="6" FontSize="Medium" HorizontalOptions="Center" TextColor="#3A75C4"/>
                 <!-- Add more labels for the rest of the days in the month -->
             </Grid>
         </ScrollView>
@@ -75,19 +75,19 @@
     <!-- Year View Tab -->
     <ContentPage Title="Year">
         <ScrollView>
-            <Grid BackgroundColor="{StaticResource SoftGray}" ColumnDefinitions="*,*,*">
-                <Label Text="January" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource PrimaryBlue}"/>
-                <Label Text="February" Grid.Column="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="March" Grid.Column="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="April" Grid.Column="0" Grid.Row="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="May" Grid.Column="1" Grid.Row="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="June" Grid.Column="2" Grid.Row="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="July" Grid.Column="0" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="August" Grid.Column="1" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="September" Grid.Column="2" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="October" Grid.Column="0" Grid.Row="3" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="November" Grid.Column="1" Grid.Row="3" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
-                <Label Text="December" Grid.Column="2" Grid.Row="3" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="{StaticResource SoftGray}"/>
+            <Grid BackgroundColor="#F2F2F2" ColumnDefinitions="*,*,*">
+                <Label Text="January" Grid.Column="0" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#3A75C4"/>
+                <Label Text="February" Grid.Column="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="March" Grid.Column="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="April" Grid.Column="0" Grid.Row="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="May" Grid.Column="1" Grid.Row="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="June" Grid.Column="2" Grid.Row="1" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="July" Grid.Column="0" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="August" Grid.Column="1" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="September" Grid.Column="2" Grid.Row="2" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="October" Grid.Column="0" Grid.Row="3" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="November" Grid.Column="1" Grid.Row="3" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
+                <Label Text="December" Grid.Column="2" Grid.Row="3" FontSize="Medium" HorizontalOptions="Center" BackgroundColor="#F2F2F2"/>
             </Grid>
         </ScrollView>
     </ContentPage>
