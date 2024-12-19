@@ -1,0 +1,101 @@
+﻿# .NET MAUI / .NET Core
+
+# User-specific files
+.idea/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer EXE
+*.exe
+
+# Windows Installer for VS
+.vs2019/
+.vs2017/
+
+# JetBrains Rider
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+.idea/
+
+# Build Folders
+bin/
+obj/
+out/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Xamarin Studio
+.vscode/
+
+# ASP.NET Scaffolding
+Scaffolding/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET MAUI artifacts
+.android/
+.ios/
+.maccatalyst/
+.windows/
+.resources/
+
+# IntelliJ IDEA
+.idea/
+
+# Microsoft Visual Studio for Mac
+.vscode/
+
+# Debug and Release directories
+Debug/
+Release/
+
+# User-specific files for Rider
+.idea/
+
+# User-specific Visual Studio Code settings
+.vscode/
+
+# Node.js and npm
+node_modules/
+
+# Package directories
+packages/
+
+# JetBrains Rider (OS-specific)
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Generated files from dotnet build
+*.bak
+*.swp
+*.swo
+
+# ASP.NET Core
+# Windows
+
+# Debugger
+.vscode/launch.json
