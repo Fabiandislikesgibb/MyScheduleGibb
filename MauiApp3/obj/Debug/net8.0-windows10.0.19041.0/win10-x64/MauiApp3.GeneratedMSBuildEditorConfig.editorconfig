@@ -31,6 +31,30 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/fabia/OneDrive/Dokumente/OneDrive/Dokumente/gibb Berufsschule/Module/Modul 322/LB2/MyScheduleGibb/MauiApp3/CalendarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3.CalendarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CalendarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CalendarPage.xaml
+
+[C:/Users/fabia/OneDrive/Dokumente/OneDrive/Dokumente/gibb Berufsschule/Module/Modul 322/LB2/MyScheduleGibb/MauiApp3/HelpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3.HelpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HelpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HelpPage.xaml
+
+[C:/Users/fabia/OneDrive/Dokumente/OneDrive/Dokumente/gibb Berufsschule/Module/Modul 322/LB2/MyScheduleGibb/MauiApp3/InfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3.InfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InfoPage.xaml
+
+[C:/Users/fabia/OneDrive/Dokumente/OneDrive/Dokumente/gibb Berufsschule/Module/Modul 322/LB2/MyScheduleGibb/MauiApp3/InputPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3.InputPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InputPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InputPage.xaml
+
 [C:/Users/fabia/OneDrive/Dokumente/OneDrive/Dokumente/gibb Berufsschule/Module/Modul 322/LB2/MyScheduleGibb/MauiApp3/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3.MainPage.xaml
