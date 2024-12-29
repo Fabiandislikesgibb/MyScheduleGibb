@@ -33061,7 +33061,6 @@
       "outputPath": "C:\\Users\\fabia\\OneDrive\\Dokumente\\OneDrive\\Dokumente\\gibb Berufsschule\\Module\\Modul 322\\LB2\\MyScheduleGibb\\MauiApp3\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\fabia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -33072,6 +33071,7 @@
         "net8.0-windows10.0.19041.0"
       ],
       "sources": {
+        "C:\\Users\\fabia\\.dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
