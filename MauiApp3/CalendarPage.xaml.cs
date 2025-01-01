@@ -31,15 +31,57 @@ public partial class CalendarPage : ContentPage
     private void ShowDayView()
     {
         var selectedDate = CalendarDatePicker.Date;
-        var stackLayout = new StackLayout { Padding = 20, Spacing = 15 };
-        stackLayout.Children.Add(new Label { Text = $"Day View for {selectedDate:MMMM dd, yyyy}", FontSize = 20, HorizontalOptions = LayoutOptions.Center });
+        var grid = new Grid
+        {
+            Padding = 20,
+            RowSpacing = 10,
+            ColumnSpacing = 10
+        };
 
+        // Define rows for each hour
         for (int i = 0; i < 24; i++)
         {
-            stackLayout.Children.Add(new Label { Text = $"{i}:00", HorizontalOptions = LayoutOptions.Start });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) });
         }
 
-        CalendarContentView.Content = stackLayout;
+        // Define columns for time and events
+        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Auto) });
+        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+        // Add time labels and empty event slots
+        for (int i = 0; i < 24; i++)
+        {
+            var timeLabel = new Label
+            {
+                Text = DateTime.Today.AddHours(i).ToString("hh tt"),
+                FontSize = 18,
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalOptions = LayoutOptions.End
+            };
+            var eventBox = new BoxView
+            {
+                Color = Colors.Transparent,
+                HeightRequest = 50,
+                WidthRequest = 200,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                HorizontalOptions = LayoutOptions.FillAndExpand
+            };
+
+            grid.Children.Add(timeLabel);
+            Grid.SetRow(timeLabel, i);
+            Grid.SetColumn(timeLabel, 0);
+
+            grid.Children.Add(eventBox);
+            Grid.SetRow(eventBox, i);
+            Grid.SetColumn(eventBox, 1);
+        }
+
+        var scrollView = new ScrollView
+        {
+            Content = grid
+        };
+
+        CalendarContentView.Content = scrollView;
     }
 
     private void ShowMonthView()
