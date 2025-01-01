@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-29T19:50:23.117</Modified>
+      <Modified>2025-01-01T13:17:44.625</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp3.dll">
       <PackagePath>MauiApp3.dll</PackagePath>
-      <Modified>2024-12-29T19:50:22.408</Modified>
+      <Modified>2025-01-01T13:17:44.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp3.exe</PackagePath>
-      <Modified>2024-12-29T19:50:22.422</Modified>
+      <Modified>2025-01-01T13:17:44.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
