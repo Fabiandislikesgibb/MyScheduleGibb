@@ -40,31 +40,59 @@ public partial class CalendarPage : ContentPage
 
     private void ShowMonthView()
     {
-        var grid = new Grid();
-        for (int i = 0; i < 7; i++)
+        var grid = new Grid
+        {
+            RowSpacing = 20, // Add spacing between rows
+            ColumnSpacing = 10 // Add spacing between columns if needed
+        };
+        for (int i = 0; i < 4; i++)
+        {
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+        }
+        for (int i = 0; i < 3; i++)
         {
             grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
         }
 
-        var days = new[] { "Mon", "Die", "Mit", "Don", "Fre", "Sam", "Son" };
-        for (int i = 0; i < days.Length; i++)
+        var months = new[] { "Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez" };
+        var colors = new[] { Color.FromArgb("#8B0000"), Color.FromArgb("#00008B"), Color.FromArgb("#FF8C00") }; // Darker shades of red, blue, and orange
+
+        for (int i = 0; i < months.Length; i++)
         {
-            var label = new Label { Text = days[i] };
-            Grid.SetRow(label, 0);
-            Grid.SetColumn(label, i);
-            grid.Children.Add(label);
-        }
-        // Add more rows for days
-        for (int row = 1; row <= 5; row++)
-        {
-            for (int col = 0; col < 7; col++)
+            var label = new Label
             {
-                var boxView = new BoxView { Color = Colors.LightGray, HeightRequest = 50, WidthRequest = 50 };
-                Grid.SetRow(boxView, row);
-                Grid.SetColumn(boxView, col);
-                grid.Children.Add(boxView);
-            }
+                Text = months[i],
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+                TextColor = Colors.White
+            };
+            var boxView = new BoxView
+            {
+                Color = colors[i % colors.Length].WithAlpha(0.5f), // Set transparency
+                HeightRequest = 50,
+                WidthRequest = 50
+            };
+            var frame = new Frame
+            {
+                Content = boxView,
+                BorderColor = colors[i % colors.Length], // Full color border
+                CornerRadius = 10, // Rounded corners
+                Padding = 0,
+                HasShadow = false,
+                HeightRequest = 50,
+                WidthRequest = 50
+            };
+            var stackLayout = new StackLayout
+            {
+                Children = { frame, label },
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
+            Grid.SetRow(stackLayout, i / 3);
+            Grid.SetColumn(stackLayout, i % 3);
+            grid.Children.Add(stackLayout);
         }
+
         CalendarContentView.Content = grid;
     }
 
