@@ -30,11 +30,15 @@ public partial class CalendarPage : ContentPage
 
     private void ShowDayView()
     {
+        var selectedDate = CalendarDatePicker.Date;
         var stackLayout = new StackLayout { Padding = 20, Spacing = 15 };
+        stackLayout.Children.Add(new Label { Text = $"Day View for {selectedDate:MMMM dd, yyyy}", FontSize = 20, HorizontalOptions = LayoutOptions.Center });
+
         for (int i = 0; i < 24; i++)
         {
-            stackLayout.Children.Add(new Label { Text = $"{i}:00"});
+            stackLayout.Children.Add(new Label { Text = $"{i}:00", HorizontalOptions = LayoutOptions.Start });
         }
+
         CalendarContentView.Content = stackLayout;
     }
 
@@ -82,6 +86,11 @@ public partial class CalendarPage : ContentPage
                 HeightRequest = 50,
                 WidthRequest = 50
             };
+
+            var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.Tapped += (s, e) => OnMonthTapped(i + 1); // Add tap event
+            frame.GestureRecognizers.Add(tapGestureRecognizer);
+
             var stackLayout = new StackLayout
             {
                 Children = { frame, label },
@@ -94,6 +103,22 @@ public partial class CalendarPage : ContentPage
         }
 
         CalendarContentView.Content = grid;
+    }
+
+    private void OnMonthTapped(int month)
+    {
+        try
+        {
+            var firstDayOfMonth = new DateTime(DateTime.Now.Year, month, 1);
+            CalendarDatePicker.Date = firstDayOfMonth;
+            ShowDayView();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in OnMonthTapped: {ex.Message}");
+            // Optionally, display an alert to the user
+            DisplayAlert("Error", "An error occurred while navigating to the selected month.", "OK");
+        }
     }
 
     private void ShowYearView()
