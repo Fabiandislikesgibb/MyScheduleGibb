@@ -5,7 +5,13 @@
        x:Class="MauiApp3.AppShell">
 
     <FlyoutItem Title="Calendar" Icon="icon_calendar.png">
-        <ShellContent ContentTemplate="{DataTemplate mauiApp3:CalendarPage}" />
+        <ShellContent>
+            <NavigationPage>
+                <x:Arguments>
+                    <mauiApp3:CalendarPage />
+                </x:Arguments>
+            </NavigationPage>
+        </ShellContent>
     </FlyoutItem>
     <FlyoutItem Title="Info" Icon="info.png">
         <ShellContent>
