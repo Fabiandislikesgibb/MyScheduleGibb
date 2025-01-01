@@ -78,10 +78,16 @@ public partial class CalendarPage : ContentPage
 
         var scrollView = new ScrollView
         {
-            Content = grid
+            Content = grid,
+            VerticalOptions = LayoutOptions.FillAndExpand,
+            Orientation = ScrollOrientation.Vertical
         };
 
-        CalendarContentView.Content = scrollView;
+        CalendarContentView.Content = new StackLayout
+        {
+            Children = { scrollView },
+            VerticalOptions = LayoutOptions.FillAndExpand
+        };
     }
 
     private void ShowMonthView()
