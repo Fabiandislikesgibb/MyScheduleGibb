@@ -76,6 +76,39 @@ public partial class CalendarPage : ContentPage
             Grid.SetColumn(eventBox, 1);
         }
 
+        // Add events to the grid
+        foreach (var calendarEvent in App.Events.Where(e => e.StartTime.Date == selectedDate))
+        {
+            var eventBlock = new BoxView
+            {
+                Color = GetEventColor(calendarEvent.EventType),
+                HeightRequest = 50 * calendarEvent.Duration,
+                WidthRequest = 200,
+                VerticalOptions = LayoutOptions.Start,
+                HorizontalOptions = LayoutOptions.FillAndExpand
+            };
+
+            var eventLabel = new Label
+            {
+                Text = calendarEvent.Title,
+                FontSize = 18,
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalOptions = LayoutOptions.Center,
+                TextColor = Colors.White
+            };
+
+            var eventStack = new StackLayout
+            {
+                Children = { eventBlock, eventLabel },
+                VerticalOptions = LayoutOptions.Start,
+                HorizontalOptions = LayoutOptions.FillAndExpand
+            };
+
+            grid.Children.Add(eventStack);
+            Grid.SetRow(eventStack, calendarEvent.StartTime.Hour);
+            Grid.SetColumn(eventStack, 1);
+        }
+
         var scrollView = new ScrollView
         {
             Content = grid,
@@ -87,6 +120,17 @@ public partial class CalendarPage : ContentPage
         {
             Children = { scrollView },
             VerticalOptions = LayoutOptions.FillAndExpand
+        };
+    }
+
+    private Color GetEventColor(string eventType)
+    {
+        return eventType switch
+        {
+            "Meeting" => Colors.Blue,
+            "Geburtstag" => Colors.Green,
+            "Urlaub" => Colors.Orange,
+            _ => Colors.Gray,
         };
     }
 

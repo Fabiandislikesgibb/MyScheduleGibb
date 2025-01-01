@@ -28,9 +28,18 @@ public partial class InputPage : ContentPage
         bool isValid = ValidateInputs();
         if (isValid)
         {
-            // Save the event and navigate to the calendar page
-            // Display a confirmation message
+            var newEvent = new CalendarEvent
+            {
+                Title = TitleEntry.Text,
+                StartTime = EventDatePicker.Date + EventTimePicker.Time,
+                Duration = DurationSlider.Value,
+                EventType = EventTypePicker.SelectedItem.ToString()
+            };
+
+            App.Events.Add(newEvent);
+
             await DisplayAlert("Erfolg", "Das Ereignis wurde erfolgreich gespeichert", "OK");
+            await Navigation.PopAsync(); // Navigate back to the previous page
         }
     }
 
