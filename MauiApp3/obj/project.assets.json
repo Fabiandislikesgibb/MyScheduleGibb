@@ -33054,14 +33054,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabia\\RiderProjects\\MauiApp3\\MauiApp3\\MauiApp3.csproj",
+      "projectUniqueName": "C:\\Users\\fabia\\OneDrive\\Dokumente\\OneDrive\\Dokumente\\gibb Berufsschule\\Module\\Modul 322\\LB2\\MyScheduleGibb\\MauiApp3\\MauiApp3.csproj",
       "projectName": "MauiApp3",
-      "projectPath": "C:\\Users\\fabia\\RiderProjects\\MauiApp3\\MauiApp3\\MauiApp3.csproj",
+      "projectPath": "C:\\Users\\fabia\\OneDrive\\Dokumente\\OneDrive\\Dokumente\\gibb Berufsschule\\Module\\Modul 322\\LB2\\MyScheduleGibb\\MauiApp3\\MauiApp3.csproj",
       "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabia\\RiderProjects\\MauiApp3\\MauiApp3\\obj\\",
+      "outputPath": "C:\\Users\\fabia\\OneDrive\\Dokumente\\OneDrive\\Dokumente\\gibb Berufsschule\\Module\\Modul 322\\LB2\\MyScheduleGibb\\MauiApp3\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\fabia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
@@ -33072,6 +33071,7 @@
         "net8.0-windows10.0.19041.0"
       ],
       "sources": {
+        "C:\\Users\\fabia\\.dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

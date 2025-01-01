@@ -10,17 +10,17 @@
                 <mauiApp3:InfoPage />
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="Hilfe" IconImageSource="help.png">
+        <NavigationPage Title="Help" IconImageSource="help.png">
             <x:Arguments>
                 <mauiApp3:HelpPage />
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="Kalender" IconImageSource="calendar.png">
+        <NavigationPage Title="Calendar" IconImageSource="calendar.png">
             <x:Arguments>
                 <mauiApp3:CalendarPage />
             </x:Arguments>
         </NavigationPage>
-        <NavigationPage Title="Eingabe" IconImageSource="input.png">
+        <NavigationPage Title="Input" IconImageSource="input.png">
             <x:Arguments>
                 <mauiApp3:InputPage />
             </x:Arguments>
