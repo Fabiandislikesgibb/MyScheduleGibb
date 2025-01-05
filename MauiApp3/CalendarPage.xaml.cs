@@ -29,99 +29,101 @@ public partial class CalendarPage : ContentPage
     }
 
     private void ShowDayView()
+{
+    var selectedDate = CalendarDatePicker.Date;
+    var grid = new Grid
     {
-        var selectedDate = CalendarDatePicker.Date;
-        var grid = new Grid
-        {
-            Padding = 20,
-            RowSpacing = 10,
-            ColumnSpacing = 10
-        };
+        Padding = 20,
+        RowSpacing = 10,
+        ColumnSpacing = 10
+    };
 
-        // Define rows for each hour
-        for (int i = 0; i < 24; i++)
-        {
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) });
-        }
-
-        // Define columns for time and events
-        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Auto) });
-        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-
-        // Add time labels and empty event slots
-        for (int i = 0; i < 24; i++)
-        {
-            var timeLabel = new Label
-            {
-                Text = DateTime.Today.AddHours(i).ToString("hh tt"),
-                FontSize = 18,
-                VerticalOptions = LayoutOptions.Center,
-                HorizontalOptions = LayoutOptions.End
-            };
-            var eventBox = new BoxView
-            {
-                Color = Colors.Transparent,
-                HeightRequest = 50,
-                WidthRequest = 200,
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                HorizontalOptions = LayoutOptions.FillAndExpand
-            };
-
-            grid.Children.Add(timeLabel);
-            Grid.SetRow(timeLabel, i);
-            Grid.SetColumn(timeLabel, 0);
-
-            grid.Children.Add(eventBox);
-            Grid.SetRow(eventBox, i);
-            Grid.SetColumn(eventBox, 1);
-        }
-
-        // Add events to the grid
-        foreach (var calendarEvent in App.Events.Where(e => e.StartTime.Date == selectedDate))
-        {
-            var eventBlock = new BoxView
-            {
-                Color = GetEventColor(calendarEvent.EventType),
-                HeightRequest = 50 * calendarEvent.Duration,
-                WidthRequest = 200,
-                VerticalOptions = LayoutOptions.Start,
-                HorizontalOptions = LayoutOptions.FillAndExpand
-            };
-
-            var eventLabel = new Label
-            {
-                Text = calendarEvent.Title,
-                FontSize = 18,
-                VerticalOptions = LayoutOptions.Center,
-                HorizontalOptions = LayoutOptions.Center,
-                TextColor = Colors.White
-            };
-
-            var eventStack = new StackLayout
-            {
-                Children = { eventBlock, eventLabel },
-                VerticalOptions = LayoutOptions.Start,
-                HorizontalOptions = LayoutOptions.FillAndExpand
-            };
-
-            grid.Children.Add(eventStack);
-            Grid.SetRow(eventStack, calendarEvent.StartTime.Hour);
-            Grid.SetColumn(eventStack, 1);
-        }
-
-        var scrollView = new ScrollView
-        {
-            Content = grid,
-            VerticalOptions = LayoutOptions.FillAndExpand,
-            Orientation = ScrollOrientation.Vertical
-        };
-
-        CalendarContentView.Content = new StackLayout
-        {
-            Children = { scrollView },
-            VerticalOptions = LayoutOptions.FillAndExpand
-        };
+    // Define rows for each hour
+    for (int i = 0; i < 24; i++)
+    {
+        grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
     }
+
+    // Define columns for time and events
+    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Auto) });
+    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+    // Add time labels and empty event slots
+    for (int i = 0; i < 24; i++)
+    {
+        var timeLabel = new Label
+        {
+            Text = DateTime.Today.AddHours(i).ToString("hh tt"),
+            FontSize = 18,
+            VerticalOptions = LayoutOptions.Center,
+            HorizontalOptions = LayoutOptions.End
+        };
+        var eventBox = new BoxView
+        {
+            Color = Colors.Transparent,
+            HeightRequest = 50,
+            WidthRequest = 200,
+            VerticalOptions = LayoutOptions.FillAndExpand,
+            HorizontalOptions = LayoutOptions.FillAndExpand
+        };
+
+        grid.Children.Add(timeLabel);
+        Grid.SetRow(timeLabel, i);
+        Grid.SetColumn(timeLabel, 0);
+
+        grid.Children.Add(eventBox);
+        Grid.SetRow(eventBox, i);
+        Grid.SetColumn(eventBox, 1);
+    }
+
+    // Add events to the grid
+    foreach (var calendarEvent in App.Events.Where(e => e.StartTime.Date == selectedDate))
+    {
+        var eventBlock = new BoxView
+        {
+            Color = GetEventColor(calendarEvent.EventType),
+            VerticalOptions = LayoutOptions.Start,
+            HorizontalOptions = LayoutOptions.FillAndExpand
+        };
+
+        var eventLabel = new Label
+        {
+            Text = calendarEvent.Title,
+            FontSize = 18,
+            VerticalOptions = LayoutOptions.Center,
+            HorizontalOptions = LayoutOptions.Center,
+            TextColor = Colors.White
+        };
+
+        var eventStack = new StackLayout
+        {
+            Children = { eventBlock, eventLabel },
+            VerticalOptions = LayoutOptions.Start,
+            HorizontalOptions = LayoutOptions.FillAndExpand
+        };
+
+        int startHour = calendarEvent.StartTime.Hour;
+        int rowSpan = (int)Math.Ceiling(calendarEvent.Duration);
+
+        grid.Children.Add(eventStack);
+        Grid.SetRow(eventStack, startHour);
+        Grid.SetRowSpan(eventStack, rowSpan);
+        Grid.SetColumn(eventStack, 1);
+    }
+
+    var scrollView = new ScrollView
+    {
+        Content = grid,
+        VerticalOptions = LayoutOptions.FillAndExpand,
+        Orientation = ScrollOrientation.Vertical
+    };
+
+    CalendarContentView.Content = new StackLayout
+    {
+        Children = { scrollView },
+        VerticalOptions = LayoutOptions.FillAndExpand
+    };
+}
 
     private Color GetEventColor(string eventType)
     {
