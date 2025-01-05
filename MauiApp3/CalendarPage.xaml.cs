@@ -28,7 +28,7 @@ public partial class CalendarPage : ContentPage
         // Handle date selection if needed
     }
 
-    private void ShowDayView()
+private void ShowDayView()
 {
     var selectedDate = CalendarDatePicker.Date;
     var grid = new Grid
@@ -79,13 +79,6 @@ public partial class CalendarPage : ContentPage
     // Add events to the grid
     foreach (var calendarEvent in App.Events.Where(e => e.StartTime.Date == selectedDate))
     {
-        var eventBlock = new BoxView
-        {
-            Color = GetEventColor(calendarEvent.EventType),
-            VerticalOptions = LayoutOptions.Start,
-            HorizontalOptions = LayoutOptions.FillAndExpand
-        };
-
         var eventLabel = new Label
         {
             Text = calendarEvent.Title,
@@ -97,18 +90,28 @@ public partial class CalendarPage : ContentPage
 
         var eventStack = new StackLayout
         {
-            Children = { eventBlock, eventLabel },
-            VerticalOptions = LayoutOptions.Start,
+            Children = { eventLabel },
+            VerticalOptions = LayoutOptions.FillAndExpand,
             HorizontalOptions = LayoutOptions.FillAndExpand
+        };
+
+        var eventFrame = new Frame
+        {
+            Content = eventStack,
+            BackgroundColor = GetEventColor(calendarEvent.EventType),
+            BorderColor = GetEventColor(calendarEvent.EventType),
+            CornerRadius = 5,
+            Padding = 5,
+            HasShadow = true
         };
 
         int startHour = calendarEvent.StartTime.Hour;
         int rowSpan = (int)Math.Ceiling(calendarEvent.Duration);
 
-        grid.Children.Add(eventStack);
-        Grid.SetRow(eventStack, startHour);
-        Grid.SetRowSpan(eventStack, rowSpan);
-        Grid.SetColumn(eventStack, 1);
+        grid.Children.Add(eventFrame);
+        Grid.SetRow(eventFrame, startHour);
+        Grid.SetRowSpan(eventFrame, rowSpan);
+        Grid.SetColumn(eventFrame, 1);
     }
 
     var scrollView = new ScrollView
