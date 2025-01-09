@@ -8,30 +8,12 @@
         <ShellContent ContentTemplate="{DataTemplate mauiApp3:CalendarPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Info" Icon="info.png">
-        <ShellContent>
-            <NavigationPage>
-                <x:Arguments>
-                    <mauiApp3:InfoPage />
-                </x:Arguments>
-            </NavigationPage>
-        </ShellContent>
+        <ShellContent ContentTemplate="{DataTemplate mauiApp3:InfoPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Help" Icon="help.png">
-        <ShellContent>
-            <NavigationPage>
-                <x:Arguments>
-                    <mauiApp3:HelpPage />
-                </x:Arguments>
-            </NavigationPage>
-        </ShellContent>
+        <ShellContent ContentTemplate="{DataTemplate mauiApp3:HelpPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Input" Icon="input.png">
-        <ShellContent>
-            <NavigationPage>
-                <x:Arguments>
-                    <mauiApp3:InputPage />
-                </x:Arguments>
-            </NavigationPage>
-        </ShellContent>
+        <ShellContent ContentTemplate="{DataTemplate mauiApp3:InputPage}" />
     </FlyoutItem>
 </Shell>
