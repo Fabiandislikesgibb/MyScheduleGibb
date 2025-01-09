@@ -4,10 +4,46 @@
              x:Class="MauiApp3.InfoPage"
              Title="Info">
 
-    <StackLayout Padding="10">
-        <Label Text="App Titel" FontSize="Large" HorizontalOptions="Center" />
-        <Label Text="Kurze Beschreibung der App." FontSize="Medium" HorizontalOptions="Center" />
-        <Label Text="Zielgruppe: Alle Benutzer." FontSize="Medium" HorizontalOptions="Center" />
-        <Image Source="logo.png" HorizontalOptions="Center" />
-    </StackLayout>
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
+                <StackLayout>
+                    <Label Text="1. Willkommen" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Herzlich willkommen! Unsere Plattform unterstützt Sie dabei, effizienter zu arbeiten und Ihre Ziele zu erreichen." Style="{StaticResource ContentLabel}" TextColor="White" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
+                <StackLayout>
+                    <Label Text="2. Unsere Mission" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Wir glauben an klare Prozesse und smarte Tools, um Zeit zu sparen und Produktivität zu steigern." Style="{StaticResource ContentLabel}" TextColor="White" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
+                <StackLayout>
+                    <Label Text="3. Funktionen" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Intuitiv: Einfache Bedienung ohne Einarbeitungszeit." Style="{StaticResource ContentLabel}" TextColor="White" />
+                    <Label Text="Flexibel: Anpassbar an Ihre Bedürfnisse." Style="{StaticResource ContentLabel}" TextColor="White" />
+                    <Label Text="Effizient: Automatisierungen, die Arbeit erleichtern." Style="{StaticResource ContentLabel}" TextColor="White" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
+                <StackLayout>
+                    <Label Text="4. Warum wir?" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Mit Leidenschaft für Design und Technik entwickeln wir Lösungen, die Ihnen den Alltag erleichtern." Style="{StaticResource ContentLabel}" TextColor="White" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
+                <StackLayout>
+                    <Label Text="5. Kontakt" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Fragen oder Feedback? Schreiben Sie uns: info@unsereplattform.de" Style="{StaticResource ContentLabel}" TextColor="White" />
+                </StackLayout>
+            </Frame>
+
+            <Image Source="logo.png" HorizontalOptions="Center" Margin="20" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

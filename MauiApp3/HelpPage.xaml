@@ -5,21 +5,28 @@
              Title="FAQ">
 
     <StackLayout Padding="20" Spacing="15">
-        <Label Text="Häufig gestellte Fragen" FontSize="Large" HorizontalOptions="Center" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Häufig gestellte Fragen" Style="{StaticResource HeaderLabel}" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Image Source="fragemann.png" HeightRequest="50" WidthRequest="50" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" />
+        </Grid>
 
-        <Button Text="Wie organisiere ich meine Termine und Aufgaben?" Clicked="OnQuestionClicked" BackgroundColor="#007BFF" TextColor="White" />
-        <Label x:Name="Answer1" Text="Unsere App bietet eine zentrale Lösung zur Verwaltung von Terminen und Aufgaben. Sie ermöglicht es, sowohl berufliche als auch private Verpflichtungen effizient zu planen. Mit den Ansichten Tag, Woche, Monat und Jahr können Nutzer jederzeit den Überblick behalten und ihre Zeit optimal nutzen." IsVisible="False" />
+        <Button Text="Wie organisiere ich meine Termine und Aufgaben?" Clicked="OnQuestionClicked" BackgroundColor="{StaticResource PrimaryBlue}" TextColor="White" />
+        <Label x:Name="Answer1" Text="Unsere App bietet eine zentrale Lösung zur Verwaltung von Terminen und Aufgaben. Sie ermöglicht es, sowohl berufliche als auch private Verpflichtungen effizient zu planen. Mit den Ansichten Tag, Woche, Monat und Jahr können Nutzer jederzeit den Überblick behalten und ihre Zeit optimal nutzen." IsVisible="False" Style="{StaticResource AnswerLabel}" />
 
-        <Button Text="Welche Funktionen fehlen mir in den aktuellen Tools?" Clicked="OnQuestionClicked" BackgroundColor="#007BFF" TextColor="White" />
-        <Label x:Name="Answer2" Text="MySchedule bietet Funktionen, die in vielen anderen Apps fehlen, wie z. B. die Möglichkeit, Aufgaben direkt mit Terminen zu verbinden. Du kannst Termine farblich priorisieren, Erinnerungen einrichten und Aufgabenlisten verwalten. Die Integration von Kalendern (Google, Outlook) sorgt für eine nahtlose Synchronisation." IsVisible="False" />
+        <Button Text="Welche Funktionen fehlen mir in den aktuellen Tools?" Clicked="OnQuestionClicked" BackgroundColor="{StaticResource PrimaryBlue}" TextColor="White" />
+        <Label x:Name="Answer2" Text="MySchedule bietet Funktionen, die in vielen anderen Apps fehlen, wie z. B. die Möglichkeit, Aufgaben direkt mit Terminen zu verbinden. Du kannst Termine farblich priorisieren, Erinnerungen einrichten und Aufgabenlisten verwalten. Die Integration von Kalendern (Google, Outlook) sorgt für eine nahtlose Synchronisation." IsVisible="False" Style="{StaticResource AnswerLabel}" />
 
-        <Button Text="Wie nutze ich Erinnerungen und Benachrichtigungen?" Clicked="OnQuestionClicked" BackgroundColor="#007BFF" TextColor="White" />
-        <Label x:Name="Answer3" Text="MySchedule bietet individuelle Erinnerungen für jeden Termin. Du kannst festlegen, wann und wie du erinnert werden möchtest (z. B. 30 Minuten vor dem Ereignis oder 1 Stunde vorher). Dadurch verpasst du nie wieder einen wichtigen Termin." IsVisible="False" />
+        <Button Text="Wie nutze ich Erinnerungen und Benachrichtigungen?" Clicked="OnQuestionClicked" BackgroundColor="{StaticResource PrimaryBlue}" TextColor="White" />
+        <Label x:Name="Answer3" Text="MySchedule bietet individuelle Erinnerungen für jeden Termin. Du kannst festlegen, wann und wie du erinnert werden möchtest (z. B. 30 Minuten vor dem Ereignis oder 1 Stunde vorher). Dadurch verpasst du nie wieder einen wichtigen Termin." IsVisible="False" Style="{StaticResource AnswerLabel}" />
 
-        <Button Text="Welche Zielgruppen sprechen wir an?" Clicked="OnQuestionClicked" BackgroundColor="#007BFF" TextColor="White" />
-        <Label x:Name="Answer4" Text="MySchedule richtet sich an Berufstätige, Studierende und Eltern, die ihre Termine und Aufgaben effizient organisieren möchten. Die App ist sowohl für kleine Unternehmen als auch für Einzelpersonen geeignet, die einen zentralen Ort für ihre Planung brauchen." IsVisible="False" />
+        <Button Text="Welche Zielgruppen sprechen wir an?" Clicked="OnQuestionClicked" BackgroundColor="{StaticResource PrimaryBlue}" TextColor="White" />
+        <Label x:Name="Answer4" Text="MySchedule richtet sich an Berufstätige, Studierende und Eltern, die ihre Termine und Aufgaben effizient organisieren möchten. Die App ist sowohl für kleine Unternehmen als auch für Einzelpersonen geeignet, die einen zentralen Ort für ihre Planung brauchen." IsVisible="False" Style="{StaticResource AnswerLabel}" />
 
-        <Button Text="Wie sicher sind meine Daten in der App?" Clicked="OnQuestionClicked" BackgroundColor="#007BFF" TextColor="White" />
-        <Label x:Name="Answer5" Text="Die Sicherheit und der Datenschutz der Nutzer sind uns sehr wichtig. MySchedule speichert keine persönlichen Daten ohne deine Zustimmung und gewährleistet eine sichere Synchronisation mit anderen Kalendern. Alle Daten werden verschlüsselt und entsprechen den geltenden Datenschutzbestimmungen." IsVisible="False" />
+        <Button Text="Wie sicher sind meine Daten in der App?" Clicked="OnQuestionClicked" BackgroundColor="{StaticResource PrimaryBlue}" TextColor="White" />
+        <Label x:Name="Answer5" Text="Die Sicherheit und der Datenschutz der Nutzer sind uns sehr wichtig. MySchedule speichert keine persönlichen Daten ohne deine Zustimmung und gewährleistet eine sichere Synchronisation mit anderen Kalendern. Alle Daten werden verschlüsselt und entsprechen den geltenden Datenschutzbestimmungen." IsVisible="False" Style="{StaticResource AnswerLabel}" />
     </StackLayout>
 </ContentPage>
