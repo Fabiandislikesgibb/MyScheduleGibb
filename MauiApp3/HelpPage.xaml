@@ -10,8 +10,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <Label Text="Häufig gestellte Fragen" Style="{StaticResource HeaderLabel}" HorizontalOptions="Start" />
-            <Image Source="fragemann.png" HeightRequest="40" WidthRequest="40" Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center" />
+            <Label Text="Häufig gestellte Fragen" Style="{StaticResource HeaderLabel}" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Image Source="fragemann.png" HeightRequest="50" WidthRequest="50" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" />
         </Grid>
 
         <Button Text="Wie organisiere ich meine Termine und Aufgaben?" Clicked="OnQuestionClicked" BackgroundColor="{StaticResource PrimaryBlue}" TextColor="White" />
