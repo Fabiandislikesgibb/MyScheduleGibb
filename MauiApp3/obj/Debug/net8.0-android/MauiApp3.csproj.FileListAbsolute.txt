@@ -1073,3 +1073,4 @@ C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Mo
 C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-android\resizetizer\r\drawable\fragemann.png
