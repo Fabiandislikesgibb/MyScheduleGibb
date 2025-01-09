@@ -18,19 +18,19 @@
         <Style x:Key="ContentLabel" TargetType="Label">
             <Setter Property="FontFamily" Value="OpenSans-Regular" />
             <Setter Property="FontSize" Value="Medium" />
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="White" />
         </Style>
 
         <Style x:Key="BoldContentLabel" TargetType="Label">
             <Setter Property="FontFamily" Value="OpenSans-Bold" />
             <Setter Property="FontSize" Value="Medium" />
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="White" />
         </Style>
 
         <Style x:Key="AccentLabel" TargetType="Label">
             <Setter Property="FontFamily" Value="Raleway-Italic" />
             <Setter Property="FontSize" Value="Medium" />
-            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="TextColor" Value="White" />
         </Style>
 
         <Style x:Key="FrameStyle" TargetType="Frame">

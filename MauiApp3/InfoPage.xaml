@@ -6,40 +6,40 @@
 
     <ScrollView>
         <StackLayout Padding="20" Spacing="20">
-            <Frame Style="{StaticResource FrameStyle}">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
                 <StackLayout>
-                    <Label Text="1. Willkommen" Style="{StaticResource HeaderLabel}" />
-                    <Label Text="Herzlich willkommen! Unsere Plattform unterstützt Sie dabei, effizienter zu arbeiten und Ihre Ziele zu erreichen." Style="{StaticResource ContentLabel}" />
+                    <Label Text="1. Willkommen" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Herzlich willkommen! Unsere Plattform unterstützt Sie dabei, effizienter zu arbeiten und Ihre Ziele zu erreichen." Style="{StaticResource ContentLabel}" TextColor="White" />
                 </StackLayout>
             </Frame>
 
-            <Frame Style="{StaticResource FrameStyle}">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
                 <StackLayout>
-                    <Label Text="2. Unsere Mission" Style="{StaticResource HeaderLabel}" />
-                    <Label Text="Wir glauben an klare Prozesse und smarte Tools, um Zeit zu sparen und Produktivität zu steigern." Style="{StaticResource ContentLabel}" />
+                    <Label Text="2. Unsere Mission" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Wir glauben an klare Prozesse und smarte Tools, um Zeit zu sparen und Produktivität zu steigern." Style="{StaticResource ContentLabel}" TextColor="White" />
                 </StackLayout>
             </Frame>
 
-            <Frame Style="{StaticResource FrameStyle}">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
                 <StackLayout>
-                    <Label Text="3. Funktionen" Style="{StaticResource HeaderLabel}" />
-                    <Label Text="Intuitiv: Einfache Bedienung ohne Einarbeitungszeit." Style="{StaticResource ContentLabel}" />
-                    <Label Text="Flexibel: Anpassbar an Ihre Bedürfnisse." Style="{StaticResource ContentLabel}" />
-                    <Label Text="Effizient: Automatisierungen, die Arbeit erleichtern." Style="{StaticResource ContentLabel}" />
+                    <Label Text="3. Funktionen" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Intuitiv: Einfache Bedienung ohne Einarbeitungszeit." Style="{StaticResource ContentLabel}" TextColor="White" />
+                    <Label Text="Flexibel: Anpassbar an Ihre Bedürfnisse." Style="{StaticResource ContentLabel}" TextColor="White" />
+                    <Label Text="Effizient: Automatisierungen, die Arbeit erleichtern." Style="{StaticResource ContentLabel}" TextColor="White" />
                 </StackLayout>
             </Frame>
 
-            <Frame Style="{StaticResource FrameStyle}">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
                 <StackLayout>
-                    <Label Text="4. Warum wir?" Style="{StaticResource HeaderLabel}" />
-                    <Label Text="Mit Leidenschaft für Design und Technik entwickeln wir Lösungen, die Ihnen den Alltag erleichtern." Style="{StaticResource ContentLabel}" />
+                    <Label Text="4. Warum wir?" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Mit Leidenschaft für Design und Technik entwickeln wir Lösungen, die Ihnen den Alltag erleichtern." Style="{StaticResource ContentLabel}" TextColor="White" />
                 </StackLayout>
             </Frame>
 
-            <Frame Style="{StaticResource FrameStyle}">
+            <Frame BackgroundColor="Transparent" BorderColor="Transparent" HasShadow="False">
                 <StackLayout>
-                    <Label Text="5. Kontakt" Style="{StaticResource HeaderLabel}" />
-                    <Label Text="Fragen oder Feedback? Schreiben Sie uns: info@unsereplattform.de" Style="{StaticResource ContentLabel}" />
+                    <Label Text="5. Kontakt" Style="{StaticResource HeaderLabel}" TextColor="{StaticResource PrimaryBlue}" />
+                    <Label Text="Fragen oder Feedback? Schreiben Sie uns: info@unsereplattform.de" Style="{StaticResource ContentLabel}" TextColor="White" />
                 </StackLayout>
             </Frame>
 

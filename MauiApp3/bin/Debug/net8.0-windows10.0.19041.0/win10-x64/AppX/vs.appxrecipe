@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-09T09:50:03.366</Modified>
+      <Modified>2025-01-09T10:24:21.886</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-09T09:50:03.194</Modified>
+      <Modified>2025-01-09T10:24:21.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp3.runtimeconfig.json">
       <PackagePath>MauiApp3.runtimeconfig.json</PackagePath>
-      <Modified>2025-01-09T09:50:02.962</Modified>
+      <Modified>2025-01-09T10:24:21.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp3.dll">
       <PackagePath>MauiApp3.dll</PackagePath>
-      <Modified>2025-01-09T09:50:01.946</Modified>
+      <Modified>2025-01-09T10:24:19.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp3.exe</PackagePath>
-      <Modified>2025-01-09T09:50:01.971</Modified>
+      <Modified>2025-01-09T10:24:19.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:49:57.788</Modified>
+      <Modified>2025-01-09T10:24:13.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:49:57.810</Modified>
+      <Modified>2025-01-09T10:24:13.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:49:57.849</Modified>
+      <Modified>2025-01-09T10:24:13.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:49:57.912</Modified>
+      <Modified>2025-01-09T10:24:13.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:49:58.130</Modified>
+      <Modified>2025-01-09T10:24:13.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,215 +83,215 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.076</Modified>
+      <Modified>2025-01-09T10:24:18.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.076</Modified>
+      <Modified>2025-01-09T10:24:18.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.077</Modified>
+      <Modified>2025-01-09T10:24:18.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.077</Modified>
+      <Modified>2025-01-09T10:24:18.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.077</Modified>
+      <Modified>2025-01-09T10:24:18.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.077</Modified>
+      <Modified>2025-01-09T10:24:18.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.078</Modified>
+      <Modified>2025-01-09T10:24:18.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.078</Modified>
+      <Modified>2025-01-09T10:24:18.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.078</Modified>
+      <Modified>2025-01-09T10:24:18.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.078</Modified>
+      <Modified>2025-01-09T10:24:18.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.078</Modified>
+      <Modified>2025-01-09T10:24:18.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.079</Modified>
+      <Modified>2025-01-09T10:24:18.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.079</Modified>
+      <Modified>2025-01-09T10:24:18.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.079</Modified>
+      <Modified>2025-01-09T10:24:18.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.080</Modified>
+      <Modified>2025-01-09T10:24:18.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.080</Modified>
+      <Modified>2025-01-09T10:24:18.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.080</Modified>
+      <Modified>2025-01-09T10:24:18.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.080</Modified>
+      <Modified>2025-01-09T10:24:18.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.081</Modified>
+      <Modified>2025-01-09T10:24:18.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.081</Modified>
+      <Modified>2025-01-09T10:24:18.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.081</Modified>
+      <Modified>2025-01-09T10:24:18.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.082</Modified>
+      <Modified>2025-01-09T10:24:18.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.082</Modified>
+      <Modified>2025-01-09T10:24:18.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.082</Modified>
+      <Modified>2025-01-09T10:24:18.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.082</Modified>
+      <Modified>2025-01-09T10:24:18.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.083</Modified>
+      <Modified>2025-01-09T10:24:18.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.083</Modified>
+      <Modified>2025-01-09T10:24:18.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.083</Modified>
+      <Modified>2025-01-09T10:24:18.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.084</Modified>
+      <Modified>2025-01-09T10:24:18.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.084</Modified>
+      <Modified>2025-01-09T10:24:18.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.085</Modified>
+      <Modified>2025-01-09T10:24:18.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.085</Modified>
+      <Modified>2025-01-09T10:24:18.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.085</Modified>
+      <Modified>2025-01-09T10:24:18.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.086</Modified>
+      <Modified>2025-01-09T10:24:18.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.086</Modified>
+      <Modified>2025-01-09T10:24:18.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.086</Modified>
+      <Modified>2025-01-09T10:24:18.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.086</Modified>
+      <Modified>2025-01-09T10:24:18.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.087</Modified>
+      <Modified>2025-01-09T10:24:18.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.087</Modified>
+      <Modified>2025-01-09T10:24:18.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.087</Modified>
+      <Modified>2025-01-09T10:24:18.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.087</Modified>
+      <Modified>2025-01-09T10:24:18.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.088</Modified>
+      <Modified>2025-01-09T10:24:18.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.088</Modified>
+      <Modified>2025-01-09T10:24:18.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.088</Modified>
+      <Modified>2025-01-09T10:24:18.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.088</Modified>
+      <Modified>2025-01-09T10:24:18.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-09T09:50:01.089</Modified>
+      <Modified>2025-01-09T10:24:18.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.089</Modified>
+      <Modified>2025-01-09T10:24:18.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.089</Modified>
+      <Modified>2025-01-09T10:24:18.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.089</Modified>
+      <Modified>2025-01-09T10:24:18.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.090</Modified>
+      <Modified>2025-01-09T10:24:18.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.090</Modified>
+      <Modified>2025-01-09T10:24:18.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fragemann.scale-100.png">
       <PackagePath>fragemann.scale-100.png</PackagePath>
-      <Modified>2025-01-09T09:50:01.090</Modified>
+      <Modified>2025-01-09T10:24:18.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\OneDrive\Dokumente\OneDrive\Dokumente\gibb Berufsschule\Module\Modul 322\LB2\MyScheduleGibb\MauiApp3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp3.deps.json">
       <PackagePath>MauiApp3.deps.json</PackagePath>
-      <Modified>2025-01-09T09:50:02.905</Modified>
+      <Modified>2025-01-09T10:24:21.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fabia\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.53\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
